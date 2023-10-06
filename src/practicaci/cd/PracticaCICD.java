@@ -5,6 +5,11 @@
  */
 package practicaci.cd;
 
+import entidades.auto;
+import java.util.Scanner;
+
+
+
 /**
  *
  * @author Enrico
@@ -17,7 +22,8 @@ public class PracticaCICD {
     public static void main(String[] args) {
         
         System.out.println("Se ha relizado una confirmacion");
-        
+        Scanner read= new Scanner(System.in);
+        auto autos= new auto();
     }
     
 }
